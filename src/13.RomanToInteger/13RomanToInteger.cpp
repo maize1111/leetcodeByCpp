@@ -6,7 +6,7 @@ using namespace std;
 
 int romanToInt(string s)
 {
-
+    // 使用map会大幅增加内存和时间
     unordered_map<char, int> dic{
         {'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C', 100}, {'D', 500}, {'M', 1000}};
 
