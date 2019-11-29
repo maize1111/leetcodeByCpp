@@ -1,3 +1,4 @@
+// 抄的！！！抄的！！！抄的！！！不会写！！！
 #include <iostream>
 #include <string>
 #include <math.h>
