@@ -4,6 +4,6 @@ LeetCode Practice Code By C++
 
 The source files is in ../src/
 
-Direction: ../src/[Author]/[No.][Question's Name]/[No][Question's Name].cpp
+Path: ../src/[Author]/[No.][Question's Name]/[No][Question's Name].cpp
 
 By Alessio Pan
