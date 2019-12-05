@@ -33,7 +33,6 @@ bool isBalanced(TreeNode *root, int *deepth)
             return true;
         }
     }
-
     return false;
 }
 
