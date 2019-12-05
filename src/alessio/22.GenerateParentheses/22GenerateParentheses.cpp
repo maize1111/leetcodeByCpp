@@ -14,7 +14,7 @@ using namespace std;
  * 所以我们能直接得到P个和Q个括号的情况，
  * 进而得到N个括号的结果。
  **/
-vector<string> generateParenthesis(int n)
+vector<string> generateParentheses(int n)
 {
     if (n == 0)
         return {};
@@ -46,7 +46,7 @@ int main()
     int n;
     while (cin >> n)
     {
-        vector<string> res = generateParenthesis(n);
+        vector<string> res = generateParentheses(n);
         cout << '[' << endl;
         for (string x : res)
             cout << '"' << x << '"' << ',' << endl;
@@ -55,3 +55,4 @@ int main()
 
     return 0;
 }
+
