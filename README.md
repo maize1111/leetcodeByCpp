@@ -11,7 +11,9 @@ By Alessio Pan
 # Develop Notes
 Create a branch to update your answer
 
-eg: Create a branch for Question-100
+eg:
+
+Create a branch for Question-100
     
     git branch q100
 
