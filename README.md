@@ -16,5 +16,9 @@ eg: Create a branch for Question-100
     git branch q100
 
 Then update, commit, and push your code at branch q100
+    
+    git add .
+    git commit -m "Commit Q-100"
+    git push -u origin q100
 
 At last, create a pull request to merge to branch master
