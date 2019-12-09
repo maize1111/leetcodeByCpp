@@ -13,21 +13,21 @@ Create a branch to update your answer
 eg:
 1. Create a branch for Question-100
     
->>     # create branch q100
->>     git branch q100
->>     
->>     # checkout branch q100
->>     git checkout q100
+        # create branch q100
+        git branch q100
+
+        # checkout branch q100
+        git checkout q100
 
 2. Then update, commit, and push your code at branch q100
     
->>     # add new files to git tree
->>     git add .
->>     
->>     # commit code update
->>     git commit
->>     
->>     # push branch q100 to remote git lab
->>     git push -u origin q100
+        # add new files to git tree
+        git add .
+
+        # commit code update
+        git commit
+        
+        # push branch q100 to remote git lab
+        git push -u origin q100
 
 3. At last, create a pull request and merge branch q100 to branch master
