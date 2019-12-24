@@ -31,7 +31,7 @@ vector<int> shortestToChar(string S, char C)
 
 int main()
 {
-    string S = "iloveleetcode";
+    string S = "loveleetcode";
     char C = 'e';
     vector<int> res(S.size(), 0);
 
@@ -39,6 +39,9 @@ int main()
 
     for (int temp : res)
     {
-        cout << temp << '\t';
+        cout << temp << ' ';
     }
+    cout << endl;
+
+    return 0;
 }
