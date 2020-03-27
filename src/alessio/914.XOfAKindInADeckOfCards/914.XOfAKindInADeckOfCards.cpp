@@ -25,7 +25,7 @@ bool hasGroupSizeX(vector<int> &deck)
     {
         for (int j = i; j < vec.size(); j++)
         {
-            // use c++17/20 to compile this file with supporting gcd()
+            // use c++17/20 to compile this file which supporting gcd()
             if (gcd(vec[i], vec[j]) < 2)
                 return false;
         }
