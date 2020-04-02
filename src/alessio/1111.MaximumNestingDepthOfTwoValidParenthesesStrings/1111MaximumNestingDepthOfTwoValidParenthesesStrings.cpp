@@ -4,19 +4,19 @@ using namespace std;
 
 vector<int> maxDepthAfterSplit(string seq)
 {
-    int dp;
+    int dp = 0;
     vector<int> st;
     for (char &c : seq)
     {
         if (c == '(')
         {
-            dp++;
+            ++dp;
             st.push_back(dp % 2);
         }
-        else
+        else if (c == ')')
         {
             st.push_back(dp % 2);
-            dp--;
+            --dp;
         }
     }
     return st;
@@ -25,10 +25,19 @@ vector<int> maxDepthAfterSplit(string seq)
 int main(int argc, char const *argv[])
 {
     string s;
+    vector<int> ans;
+
     while (cin >> s)
     {
-        vector<int> ans;
         ans = maxDepthAfterSplit(s);
+
+        cout << '[';
+        for (int i = 0; i < ans.size() - 1; i++)
+        {
+            cout << ans[i] << ',';
+        }
+        cout << ans[ans.size() - 1] << ']' << endl;
     }
+
     return 0;
 }
