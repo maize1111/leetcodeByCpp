@@ -22,7 +22,7 @@ eg:
         # checkout branch q100
         git checkout q100
 
-2. Then update, commit, and push your code at branch q100
+2. Update, commit, and push your code at branch q100
     
         # add new files to git tree
         git add .
@@ -33,4 +33,4 @@ eg:
         # push branch q100 to remote git lab
         git push -u origin q100
 
-3. At last, create a pull request and merge branch q100 to branch master
+3. Create a pull request and merge branch q100 to branch master
